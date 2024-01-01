@@ -3,5 +3,5 @@ WORKDIR /reactjs-demo
 COPY package.json /home/ec2-user/reactjs-demo/
 COPY . .
 RUN npm install
-EXPOSE 80
+EXPOSE 3000
 CMD ["npm","start"]
