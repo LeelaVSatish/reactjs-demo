@@ -1,7 +1,6 @@
 version: "3"
 services:
   webapp:
-    image: leelavsatish/dev:latest
+    image: reactjs-demo:latest
     ports:
       - "80:3000"
-    tty: true
